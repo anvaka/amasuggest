@@ -1,6 +1,6 @@
 {
   "name": "amasuggest",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Angualr directive. Please ignore me",
   "main": "index.js",
   "scripts": {
