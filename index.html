@@ -1,0 +1,15 @@
+<form class='container'>
+  <input autofocus type="text" placeholder='What do you like to read?' class='form-control col-md-6'
+         ng-model="productModel"
+         typeahead-wait-ms="300"
+         typeahead-loading="loadingProducts"
+         typeahead-template-url="productMatch.html"
+         typeahead="product for product in getProduct($viewValue)" />
+  <i ng-show="loadingProducts" class="glyphicon glyphicon-refresh">Loading...</i>
+  <script type="text/ng-template" id="productMatch.html">
+  <a>
+    <img ng-src={{match.model.image}} width='25px'>
+    <span>{{match.model.title}}</span>
+  </a>
+  </script>
+</form>

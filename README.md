@@ -1,6 +1,6 @@
 # amasuggest
 
-Angualr directive. Please ignore me
+Angualr directive. Please ignore me.
 
 # install
 

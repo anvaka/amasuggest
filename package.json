@@ -14,5 +14,15 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/anvaka/amasuggest"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "dependencies": {
+    "typeahead.an": "0.0.4",
+    "an": "0.0.3",
+    "brfs": "^1.0.0"
   }
 }
