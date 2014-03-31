@@ -1,0 +1,18 @@
+{
+  "name": "amasuggest",
+  "version": "0.0.0",
+  "description": "Angualr directive. Please ignore me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "an"
+  ],
+  "author": "Andrei Kashcha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anvaka/amasuggest"
+  }
+}
