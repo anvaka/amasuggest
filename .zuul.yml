@@ -1,0 +1,10 @@
+ui: tape
+name: Product search box
+browsers:
+  - name: chrome
+    version: latest
+  - name: ie
+    version: 9
+html: test/directive.html
+scripts:
+  - "//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"
