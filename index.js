@@ -16,7 +16,7 @@ function amazonSearch($http) {
       var flatten = require('./flatten')(scope.transform);
       scope.getProduct = function (val) {
         return $http.get(scope.src || 'http://amasearch.herokuapp.com/', {
-          params: { keywords:val }
+          params: { keywords:val, responseGroup: 'ItemAttributes,Images' }
         }).then(function (res) {
           if (res.data) return res.data.map(flatten);
         });
